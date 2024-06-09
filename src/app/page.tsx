@@ -1,7 +1,6 @@
 
 import Image from "next/image";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 import Products from "../components/Products";
 import Title from "@/components/Title";
 
@@ -26,10 +25,10 @@ export default async function Home() {
   // console.log(products);
   return (
     <div>
-      <Header />
+     
       <Title title={"Get Your Favourite Phone"} />
       <Products products={products} />
-      <Footer />
+     
     </div>
 
   );

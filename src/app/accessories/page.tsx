@@ -20,7 +20,7 @@ const Accessories = async () => {
     const products = await getdata();
     return (
       <div>
-        <Title title={'Get Your Favourite PhoneCase'}/>
+        <Title title={'Get Your Favourite Accessories'}/>
         <Products products={products}/>
       </div>
     )
